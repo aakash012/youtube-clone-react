@@ -3,6 +3,7 @@ import {SideBarItem} from '../SideBarItem/SideBarItem';
 import {Menu, Divider} from 'semantic-ui-react';
 import './SideBar.scss';
 import {SideBarHeader} from './SideBarHeader/SideBarHeader';
+import {SideBarFooter} from '../SideBar/SideBarFooter/SideBarFooter';
 
 export class SideBar extends React.Component {
   render() {
@@ -24,6 +25,7 @@ export class SideBar extends React.Component {
         <SideBarItem label='Help' icon='help circle'/>
         <SideBarItem label='Send feedback' icon='comment'/>
         <Divider/>
+        <SideBarFooter/>
       </Menu>
     );
   }
