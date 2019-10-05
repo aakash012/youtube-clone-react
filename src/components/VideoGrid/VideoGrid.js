@@ -21,8 +21,6 @@ export function VideoGrid(props) {
           <VideoPreview/>
           <VideoPreview/>
           <VideoPreview/>
-          <VideoPreview/>
-          <VideoPreview/>
         </div>
         {divider}
       </React.Fragment>

@@ -1,6 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import {Subscription} from '../Susbscription';
+import {Subscription} from '../Subscription';
 
 describe('Subscription', () => {
   test('renders empty subscription', () => {
